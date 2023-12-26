@@ -8,7 +8,7 @@ export const Offres = () => {
     <div className='offres'>
         <div className="offers-left">
             <h1>Exclusif</h1>
-            <h>Offres pour vous</h>
+            <p>Offres pour vous</p>
             <p>BEST SELLERS</p>
             <button>Consulter</button>
         </div>
