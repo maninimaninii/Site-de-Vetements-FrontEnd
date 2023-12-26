@@ -16,6 +16,7 @@ export const Navbar = () => {
         <p>MANNY SHOPPER</p>
       </div>
       <ul className='nav-menu'>
+        {/* chaque link refere a une route qui renvoie l'element recherche */}
         <li onClick={() =>{setMenu("Acceuil")}}><Link style={{textDecoration:'none',  color:'#626262'} } to='/'>Acceuil</Link> {menu==='Acceuil'?<hr/>:<></>}</li>
         <li onClick={() =>{setMenu('Hommes')}}><Link Link style={{textDecoration:'none',  color:'#626262'} } to='/Hommes'>Hommes</Link>{menu==='Hommes'?<hr/>:<></>}</li>
         <li onClick={() =>{setMenu('Femmes')}}><Link Link style={{textDecoration:'none',  color:'#626262'} } to='/Femmes'>Femmes</Link>{menu==='Femmes'?<hr/>:<></>}</li>

@@ -14,7 +14,6 @@ export const Acceuil = () => {
         <Offres/>
         <NewCollections/>
         <NewsLetter/>
-        <Footer/>
     </div>
   )
 }
