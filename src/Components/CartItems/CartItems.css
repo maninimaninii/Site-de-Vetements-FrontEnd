@@ -1,0 +1,115 @@
+.cartitems{
+    margin: 100px 170px;
+}
+
+.cartitems hr{
+    height: 3px;
+    background: #e2e2e2;
+    border: 0;
+}
+
+.cartitemsmain{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cartitemsformat{
+    font-size: 17px;
+    font-weight : 500;
+    
+}
+
+.carticonproduct{
+    height: 62px;
+
+}
+
+.cartitemsquantite{
+    width: 40px;
+    height: 40px;
+    margin: 0px 20px;
+    background: white;
+}
+
+.enlver{
+    width: 15px;
+    margin: 0px 25px;
+    cursor: pointer;
+
+}
+
+.cartitemsdown{
+    display: flex;
+    margin: 100px 0px;
+}
+
+.cartitemstotal{
+flex: 1;
+display: flex;
+flex-direction: column;
+margin-right: 200px;
+gap : 40px;
+}
+
+.cartitemstotalitem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartitemstotal button{
+    width: 252px;
+    height: 58px;
+    background: black;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+} 
+
+.cartitempromo{
+    flex : 1; 
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cartitempromo p{
+   color: #555;
+}
+
+.promobox{
+    width: 504px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 5px;
+    height: 58px;
+    background: #eaeaea;
+}
+
+.promobox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 330px;
+    height: 50px;
+}
+
+.promobox button{
+    cursor: pointer;
+    background: black;
+    color:white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    height: 55px;
+    font-size:17px;
+    margin-left: 68px;
+    width: 100px;
+}

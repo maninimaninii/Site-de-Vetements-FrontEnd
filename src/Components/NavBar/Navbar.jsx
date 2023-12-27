@@ -1,13 +1,16 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import './Navbar.css'
 import logo from '../Assets/logo.png'
 import car_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom'
+import { AcceuilContext } from '../../Context/AcceuilContext'
 
 
 export const Navbar = () => {
 
   const [menu, setMenu] = useState('Acceuil')
+  const { getNumberItems } = useContext(AcceuilContext);
+
 
   return (
     <div className='navbar'>
@@ -25,7 +28,7 @@ export const Navbar = () => {
       <div className='nav-login-cart'>
       <Link to='/login'><button>Connexion</button></Link>
       <Link to='/cart'><img src={car_icon}/></Link>
-      <div className='nombrearticles'>0</div>
+      <div className='nombrearticles'>{getNumberItems()}</div>
       </div>
       
     </div>

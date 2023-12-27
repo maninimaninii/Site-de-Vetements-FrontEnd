@@ -1,0 +1,27 @@
+
+.related{
+    padding: 100px;
+}
+.related h1{
+    font-size: 40px;
+   text-align: center;
+}
+
+
+.related hr{
+   width: 200px;
+   height: 6px;
+    margin-left: 740px;
+    margin-top: 10px;
+   border-radius: 10px;
+   background: #252525;
+
+}
+
+
+.relateditem{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 25px;
+}
